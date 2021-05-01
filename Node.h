@@ -127,7 +127,8 @@
     class Node
     {
     public:
-        typedef double value_type;
+        // *db* Chaged to int for ListTest.cpp test
+        typedef int value_type;
 
         // CONSTRUCTOR
         Node(const value_type& init_data = value_type(), Node* init_link = NULL);
